@@ -1,7 +1,8 @@
-use std::fs::File;
-use std::io::{Result, BufReader, BufRead };
-use std::path::Path;
 use regex::Regex;
+/// 没有使用了
+use std::fs::File;
+use std::io::{BufRead, BufReader, Result};
+use std::path::Path;
 
 pub fn parse_file<P: AsRef<Path>>(reg: Regex, p: P) -> Result<()> {
     let file = File::open(p)?;
