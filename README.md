@@ -6,3 +6,8 @@ grep by rust and support function:
 - glob files
 - stdin input
 - show line number
+
+TODO:
+- rayon 的使用
+- 函数式编程
+- colored 使用
